@@ -1,3 +1,3 @@
-# A fullstack application using Typescript, Next.js, and Nest.js
+# Next.js | Nest.js | TypeScript | PostgresQL
 
-This is the initial boilerplate code for a future full stack application that will likely be horticulture related.
+This is the initial setup for a future horticulture related app
