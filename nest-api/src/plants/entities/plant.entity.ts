@@ -1,4 +1,4 @@
-import { IPlant } from '../../../../types';
+import { IPlant } from '@types';
 export class Plant implements IPlant {
   id: string;
   commonNames: string[];
