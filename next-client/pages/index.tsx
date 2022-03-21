@@ -1,5 +1,6 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import * as React from 'react';
 import styles from '../styles/Home.module.css';
 
 const Home: NextPage = () => {
@@ -15,7 +16,6 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
           Welcome to <a href='https://nextjs.org'>Next.js!</a>
         </h1>
-
         <h2 className='text-8xl text-center font-bold underline'>
           Welcome to Tailwind.css!
         </h2>
