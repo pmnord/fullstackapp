@@ -1,3 +1,4 @@
+import Layout from '@/components/Layout';
 import { IPlant } from '@types';
 import { GetServerSideProps, NextPage } from 'next';
 import * as React from 'react';
@@ -16,11 +17,13 @@ const PlantPage: NextPage<Props> = ({ id }) => {
   }, []);
 
   return (
-    <div className='bg-zinc-800 h-screen'>
-      <div className='text-sky-300 text-6xl'>
-        {plant && JSON.stringify(plant)}
+    <Layout>
+      <div className='bg-zinc-800 h-screen'>
+        <div className='text-sky-300 text-3xl'>
+          {plant && JSON.stringify(plant)}
+        </div>
       </div>
-    </div>
+    </Layout>
   );
 };
 
