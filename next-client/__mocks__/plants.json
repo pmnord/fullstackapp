@@ -1,0 +1,110 @@
+{
+  "1": {
+    "id": 1,
+    "name": "Monstera",
+    "slug": "monstera",
+    "scientificName": "",
+    "difficulty": "",
+    "image": "/images/plants/monstera/1.jpg",
+    "description": ""
+  },
+  "2": {
+    "id": 2,
+    "name": "Pothos",
+    "slug": "pothos",
+    "scientificName": "",
+    "difficulty": "",
+    "image": "/images/plants/monstera/1.jpg",
+    "description": ""
+  },
+  "3": {
+    "id": 3,
+    "name": "Prayer Plant",
+    "slug": "prayer-plant",
+    "scientificName": "",
+    "difficulty": "",
+    "image": "/images/plants/monstera/1.jpg",
+    "description": ""
+  },
+  "4": {
+    "id": 4,
+    "name": "Philodendron",
+    "slug": "philodendron",
+    "scientificName": "",
+    "difficulty": "",
+    "image": "/images/plants/monstera/1.jpg",
+    "description": ""
+  },
+  "5": {
+    "id": 5,
+    "name": "Tillandsia",
+    "slug": "tillandsia",
+    "scientificName": "",
+    "difficulty": "",
+    "image": "/images/plants/monstera/1.jpg",
+    "description": ""
+  },
+  "6": {
+    "id": 6,
+    "name": "Staghorn Fern",
+    "slug": "staghorn-fern",
+    "scientificName": "",
+    "difficulty": "",
+    "image": "/images/plants/monstera/1.jpg",
+    "description": ""
+  },
+  "7": {
+    "id": 7,
+    "name": "Spider Plant",
+    "slug": "spider-plant",
+    "scientificName": "",
+    "difficulty": "",
+    "image": "/images/plants/monstera/1.jpg",
+    "description": ""
+  },
+  "8": {
+    "id": 8,
+    "name": "Snake Plant",
+    "slug": "snake-plant",
+    "scientificName": "",
+    "difficulty": "",
+    "image": "/images/plants/monstera/1.jpg",
+    "description": ""
+  },
+  "9": {
+    "id": 9,
+    "name": "Jade",
+    "slug": "jade",
+    "scientificName": "",
+    "difficulty": "",
+    "image": "/images/plants/monstera/1.jpg",
+    "description": ""
+  },
+  "10": {
+    "id": 10,
+    "name": "Pilea",
+    "slug": "pilea",
+    "scientificName": "",
+    "difficulty": "",
+    "image": "/images/plants/monstera/1.jpg",
+    "description": ""
+  },
+  "11": {
+    "id": 11,
+    "name": "Money Tree",
+    "slug": "money-tree",
+    "scientificName": "",
+    "difficulty": "",
+    "image": "/images/plants/monstera/1.jpg",
+    "description": ""
+  },
+  "12": {
+    "id": 12,
+    "name": "Boston Fern",
+    "slug": "boston-fern",
+    "scientificName": "",
+    "difficulty": "",
+    "image": "/images/plants/monstera/1.jpg",
+    "description": ""
+  }
+}
