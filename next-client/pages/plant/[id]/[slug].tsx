@@ -1,5 +1,6 @@
 import Layout from 'components/Layout';
 import { GetServerSideProps, NextPage } from 'next';
+import Head from 'next/head';
 import Image from 'next/image';
 import * as React from 'react';
 import plantsJson from '__mocks__/plants.json';
@@ -11,6 +12,9 @@ type Props = {
 const PlantPage: NextPage<Props> = ({ plant }) => {
   return (
     <Layout>
+      <Head>
+        <title>HousePlantr | {plant.name}</title>
+      </Head>
       <h1 className='text-4xl font-bold text-center bg-slate-100'>
         {plant.name}
       </h1>

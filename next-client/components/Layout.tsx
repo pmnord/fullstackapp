@@ -15,7 +15,13 @@ const Layout: React.FC<{}> = ({ children }) => {
       <main className='flex-1'>{children}</main>
       <footer className='text-center p-2'>
         <Link href='https://github.com/pmnord/fullstackapp' passHref>
-          <a className='text-gray-500 underline '>View Source on GitHub</a>
+          <a
+            className='text-gray-500 underline'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            View Source on GitHub
+          </a>
         </Link>
       </footer>
     </div>
