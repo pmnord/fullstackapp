@@ -1,7 +1,11 @@
+import PlantCard from 'components/PlantCard';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import * as React from 'react';
+import plantsJson from '__mocks__/plants.json';
 import styles from '../styles/Home.module.css';
+
+const plants: Plant[] = Object.values(plantsJson);
 
 const Home: NextPage = () => {
   return (
@@ -13,17 +17,13 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href='https://nextjs.org'>Next.js!</a>
-        </h1>
-        <h2 className='text-8xl text-center font-bold underline'>
-          Welcome to Tailwind.css!
-        </h2>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
-        </p>
+        <ul className='grid grid-cols-2'>
+          {plants.map((plant) => (
+            <li key={plant.id} className='p-4'>
+              <PlantCard plant={plant} />
+            </li>
+          ))}
+        </ul>
       </main>
 
       <footer className={styles.footer}></footer>
