@@ -14,7 +14,7 @@
     "slug": "pothos",
     "scientificName": "",
     "difficulty": "",
-    "image": "/images/plants/monstera/1.jpg",
+    "image": "/images/plants/pothos/1.jpg",
     "description": ""
   },
   "3": {
@@ -23,7 +23,7 @@
     "slug": "prayer-plant",
     "scientificName": "",
     "difficulty": "",
-    "image": "/images/plants/monstera/1.jpg",
+    "image": "/images/plants/prayer-plant/1.jpg",
     "description": ""
   },
   "4": {
@@ -32,7 +32,7 @@
     "slug": "philodendron",
     "scientificName": "",
     "difficulty": "",
-    "image": "/images/plants/monstera/1.jpg",
+    "image": "/images/plants/philodendron/1.jpg",
     "description": ""
   },
   "5": {
@@ -41,7 +41,7 @@
     "slug": "tillandsia",
     "scientificName": "",
     "difficulty": "",
-    "image": "/images/plants/monstera/1.jpg",
+    "image": "/images/plants/tillandsia/1.jpg",
     "description": ""
   },
   "6": {
@@ -50,7 +50,7 @@
     "slug": "staghorn-fern",
     "scientificName": "",
     "difficulty": "",
-    "image": "/images/plants/monstera/1.jpg",
+    "image": "/images/plants/staghorn-fern/1.jpg",
     "description": ""
   },
   "7": {
@@ -59,7 +59,7 @@
     "slug": "spider-plant",
     "scientificName": "",
     "difficulty": "",
-    "image": "/images/plants/monstera/1.jpg",
+    "image": "/images/plants/spider-plant/1.jpg",
     "description": ""
   },
   "8": {
@@ -68,7 +68,7 @@
     "slug": "snake-plant",
     "scientificName": "",
     "difficulty": "",
-    "image": "/images/plants/monstera/1.jpg",
+    "image": "/images/plants/snake-plant/1.jpg",
     "description": ""
   },
   "9": {
@@ -77,7 +77,7 @@
     "slug": "jade",
     "scientificName": "",
     "difficulty": "",
-    "image": "/images/plants/monstera/1.jpg",
+    "image": "/images/plants/jade/1.jpg",
     "description": ""
   },
   "10": {
@@ -86,7 +86,7 @@
     "slug": "pilea",
     "scientificName": "",
     "difficulty": "",
-    "image": "/images/plants/monstera/1.jpg",
+    "image": "/images/plants/pilea/1.jpg",
     "description": ""
   },
   "11": {
@@ -95,7 +95,7 @@
     "slug": "money-tree",
     "scientificName": "",
     "difficulty": "",
-    "image": "/images/plants/monstera/1.jpg",
+    "image": "/images/plants/money-tree/1.jpg",
     "description": ""
   },
   "12": {
@@ -104,7 +104,7 @@
     "slug": "boston-fern",
     "scientificName": "",
     "difficulty": "",
-    "image": "/images/plants/monstera/1.jpg",
+    "image": "/images/plants/boston-fern/1.jpg",
     "description": ""
   }
 }
