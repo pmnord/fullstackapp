@@ -7,7 +7,7 @@ export class PlantsController {
   constructor(private plantsService: PlantsService) {}
 
   @Get(':id')
-  findOne(@Param() params: { id: string }): Plant {
+  findOne(@Param() params: { id: number }): Plant {
     return this.plantsService.findOne(params.id);
   }
 

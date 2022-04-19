@@ -1,4 +1,4 @@
-type Plant = {
+export interface Plant {
   id: number;
   name: string;
   scientificName: string;
@@ -6,4 +6,4 @@ type Plant = {
   difficulty: string;
   image: string;
   description: string;
-};
+}

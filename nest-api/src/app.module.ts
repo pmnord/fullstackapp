@@ -5,6 +5,8 @@ import {
   RequestMethod,
 } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
+import { PostModule } from 'post/post.module';
+import { UserModule } from 'user/user.module';
 import { AdminController } from './admin/admin.controller';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
@@ -15,7 +17,13 @@ import { DemoModule } from './demo/demo.module';
 import { PlantsModule } from './plants/plants.module';
 
 @Module({
-  imports: [DemoModule, PlantsModule, ConfigModule.forRoot()],
+  imports: [
+    DemoModule,
+    PlantsModule,
+    UserModule,
+    PostModule,
+    ConfigModule.forRoot(),
+  ],
   controllers: [AdminController, AppController, CatsController],
   providers: [AppService, CatsService],
 })
