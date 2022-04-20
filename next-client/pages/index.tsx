@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       </Head>
 
       <Layout>
-        <ul className='grid grid-cols-2'>
+        <ul className='grid grid-cols-3'>
           {plants.map((plant) => (
             <li key={plant.id} className='p-4'>
               <PlantCard plant={plant} />

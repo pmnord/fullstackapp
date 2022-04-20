@@ -1,3 +1,4 @@
+import Button from 'components/Button';
 import Layout from 'components/Layout';
 import { GetServerSideProps, NextPage } from 'next';
 import Head from 'next/head';
@@ -15,9 +16,7 @@ const PlantPage: NextPage<Props> = ({ plant }) => {
       <Head>
         <title>HousePlantr | {plant.name}</title>
       </Head>
-      <h1 className='text-4xl font-bold text-center bg-slate-100'>
-        {plant.name}
-      </h1>
+      <h1 className='text-4xl font-bold text-center'>{plant.name}</h1>
       <Image
         className='rounded'
         width={400}
@@ -37,12 +36,12 @@ const PlantPage: NextPage<Props> = ({ plant }) => {
             type='textarea'
           />
         </label>
-        <button
+        <Button
           className='mt-1 p-2 bg-gradient-to-br from-green-400 to-green-800 text-green-50 rounded color font-bold shadow-lg active:translate-y-0.5'
           type='submit'
         >
           SUBMIT
-        </button>
+        </Button>
       </form>
     </Layout>
   );

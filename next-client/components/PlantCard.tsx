@@ -1,6 +1,6 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
 type Props = {
   plant: Plant;
@@ -9,15 +9,15 @@ type Props = {
 const PlantCard: React.FunctionComponent<Props> = ({ plant }) => {
   return (
     <Link href={`/plant/${plant.id}/${plant.slug}`} passHref>
-      <a className='flex flex-col hover:scale-105 transition-all'>
+      <a className="flex flex-col transition-all hover:scale-105">
         <Image
-          className='rounded'
+          className="rounded"
           width={300}
           height={400}
           src={plant.image}
-          alt=''
+          alt=""
         />
-        <span className='text-4xl font-bold text-center -translate-y-12 bg-slate-100'>
+        <span className="-translate-y-12 bg-slate-100 text-center text-2xl font-bold text-black">
           {plant.name}
         </span>
       </a>
