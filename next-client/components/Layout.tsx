@@ -1,29 +1,43 @@
-import Link from 'next/link';
+import { useAppDispatch } from "hooks/useAppDispatch";
+import { useAppSelector } from "hooks/useAppSelector";
+import Link from "next/link";
+import { toggleTheme } from "store/core/coreSlice";
+import Button from "./Button";
 
 const Layout: React.FC<{}> = ({ children }) => {
-  // TODO add a fullWidth prop which removes the width and margin from the container for child components that need access to the full screen width
+  const theme = useAppSelector((state) => state.core.theme);
+  const dispatch = useAppDispatch();
+
+  console.log(theme);
+
+  const handleThemeToggleClick = () => dispatch(toggleTheme());
 
   return (
-    <div className='flex flex-col min-h-screen max-w-3xl mx-auto'>
-      <header className='py-2'>
-        <nav>
-          <Link href='/' passHref>
-            <a className='block font-bold'>HousePlantr</a>
-          </Link>
-        </nav>
-      </header>
-      <main className='flex-1'>{children}</main>
-      <footer className='text-center p-2'>
-        <Link href='https://github.com/pmnord/fullstackapp' passHref>
-          <a
-            className='text-gray-500 underline'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            View Source on GitHub
-          </a>
-        </Link>
-      </footer>
+    <div className={theme}>
+      <div className="dark:bg-stone-900 dark:text-white">
+        <div className="mx-auto flex min-h-screen max-w-3xl flex-col">
+          <header className="flex justify-between py-2">
+            <nav>
+              <Link href="/" passHref>
+                <a className="block font-bold">HousePlantr</a>
+              </Link>
+            </nav>
+            <Button onClick={handleThemeToggleClick}>light/dark</Button>
+          </header>
+          <main className="flex-1">{children}</main>
+          <footer className="p-2 text-center">
+            <Link href="https://github.com/pmnord/fullstackapp" passHref>
+              <a
+                className="text-gray-500 underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Source on GitHub
+              </a>
+            </Link>
+          </footer>
+        </div>
+      </div>
     </div>
   );
 };
